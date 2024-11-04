@@ -68,5 +68,33 @@ if($c->loginIndex) echo $c->loginIndex;
             <hr>
         </section>
     </div>
+<div class="container">
+        <header class="row clearfix">
+            Logomarca
+        </header>
+        
+        <nav class="row clearfix">
+            Menu
+        </nav>
+        <div>
+        <hr> 
+        <h2><strong></strong> Produtos para sua lista</strong></h2>
+
+        </div>
+        <article class="row clearfix">
+        <img src="bootstrap/img/produtos/pc.jpg" alt = "foto"/>
+            <h2>Título do produto</h2>
+            <p>Descição do produto</p>
+            <p><a href="#">Link do Produto</a></p>
+            <p></p>
+
+            <form method="POST">
+                <input type="hidden" name="codigo" value="|">
+                <button class= "btn btn-default btn-lg name="add"> Adicionar a lista </button>
+
+            </form>
+
+            </article>
+        </div>
     </body>
 </html>
