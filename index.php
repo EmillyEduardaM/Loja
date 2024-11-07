@@ -22,14 +22,19 @@ if($c->loginIndex) echo $c->loginIndex;
       <title></title>
   </head>
   <body>
+
+       
+
+
+
      <form method="POST">
-                <h2><!-- comment -->
-                    <strong>Efetue o login</strong><!-- comment -->
-                </h2><!-- comment -->
-                <hr><!-- comment -->
+                <h2>
+                    <strong>Efetue o login</strong>
+                </h2>
+                <hr>
                 <p><input type="email" name="email" placeholder="Digite seu email" required/></p><!-- comment -->
                 <p><input type="password" name="senha" placeholder="Digite sua senha" required/></p>
-                <label class ="checkbox"><!-- comment -->
+                <label class ="checkbox">
                     <input type="checkbox" name="lembrete"> Lembrar Senha</label>
                 <p><button name="login" type="submit">Entrar</button></p>               
             </form>
@@ -39,9 +44,9 @@ if($c->loginIndex) echo $c->loginIndex;
             <form method="POST">
                 <hr>
                 <h2>
-                    <strong> Cadastre-se agora</strong><!-- comment -->
-                </h2><!-- comment -->
-                <hr><!-- comment -->
+                    <strong> Cadastre-se agora</strong>
+                </h2>
+                <hr>
                 <p><input type="email" name="email" placeholder="Digite seu email" required/></p><!-- comment -->
                 <p><input type="nome" name="nome" placeholder="Digite seu nome" required/></p>
                 <p><input type="password" name="senha" placeholder="Digite sua senha" required/></p>
